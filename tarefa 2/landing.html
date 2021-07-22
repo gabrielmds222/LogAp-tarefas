@@ -10,7 +10,9 @@
 </head>
 <body id="page-landing">
 
-    <!-- Header / Navbar
+    <!-- =============================== Header / Navbar =============================== -->
+
+
     <header id="nav">
         <div class="nav-content">
             <img src="./assets/logo.png" alt="logo" class="logo">
@@ -22,9 +24,11 @@
                 <li class="nav-item"><a href="#" class="nav-link">Comprar</a></li>
             </ul>
         </div>
-    </header>     -->
+    </header>    
 
 
+
+    <!-- =============================== Main / Filtros =============================== -->
 
     <!-- ======================= -->
     <!-- ======================= -->
@@ -37,14 +41,22 @@
         <div class="busca">
             <form action="" onsubmit="return false">
                 <input type="text" id="filtro" placeholder="Nome do Produto">
+                <label>Empresa:</label>
+                <select>
+                    <option value="">--</option>
+                    <option value="Empresa X">Empresa X</option>
+                    <option value="Empresa Y">Empresa Y</option>
+                    <option value="Empresa Z">Empresa Z</option>
+                </select>
             </form>
         </div>
 
         <div class="categorias">
-            <a href="#" class="btn active" data-filter="all">Todos</a>
+            <a href="#" class="btn active" data-filter="all">Estoque</a>
             <a href="#" class="btn" data-filter="frutas">Frutas</a>
             <a href="#" class="btn" data-filter="legumes">Legumes</a>
             <a href="#" class="btn" data-filter="cereais">Cereais</a>
+            <a href="#" class="btn" data-filter="falta">Em falta</a>
             <!-- <a href="#" class="btn active" data-filter="all">Empresas</a> -->
         </div>
 
@@ -65,38 +77,35 @@
 
                 <div class="produto frutas">
                     <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/034/476/products/banana-prata1-697a68c7da6322edf115804203705497-640-0.png" alt="Banana">
+                    <span></span>
                     <div class="produto-desc">
                         <h2>Banana</h2>
-                        <h2>Empresa X</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        <h3>15 unidades</h3>
+                        <button>R$10,00</button>
                     </div>
                 </div>
                 <div class="produto frutas">
                     <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/034/476/products/banana-prata1-697a68c7da6322edf115804203705497-640-0.png" alt="Abacaxi">
                     <div class="produto-desc">
                         <h2>Abacaxi</h2>
-                        <h2>Empresa X</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        <h3>7 unidades</h3>
+                        <button>R$10,00</button>
                     </div>
                 </div>
                 <div class="produto frutas">
                     <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/034/476/products/banana-prata1-697a68c7da6322edf115804203705497-640-0.png" alt="Morango">
                     <div class="produto-desc">
                         <h2>Morango</h2>
-                        <h2>Empresa Y</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        
+        
+                        <button>R$10,00</button>
                     </div>
                 </div>
                 <div class="produto frutas">
                     <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/034/476/products/banana-prata1-697a68c7da6322edf115804203705497-640-0.png" alt="Maca">
                     <div class="produto-desc">
                         <h2>Maçã</h2>
-                        <h2>Empresa Z</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        <button>R$10,00</button>
                     </div>
                 </div>
 
@@ -106,29 +115,24 @@
                     <img src="https://www.maisquitanda.com.br/image/cache/1-verduras-legumes/cenoura%20rama-800x800.png" alt="Cenoura">
                     <div class="produto-desc">
                         <h2>Cenoura</h2>
-                        <h2>Empresa Z</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        <button>R$10,00</button>
                     </div>
                 </div>
                 <div class="produto legumes">
                     <img src="https://www.maisquitanda.com.br/image/cache/1-verduras-legumes/cenoura%20rama-800x800.png" alt="Alface">
                     <div class="produto-desc">
                         <h2>Alface</h2>
-                        <h2>Empresa Y</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        <button>R$10,00</button>
                     </div>
                 </div>
                 <div class="produto legumes">
                     <img src="https://www.maisquitanda.com.br/image/cache/1-verduras-legumes/cenoura%20rama-800x800.png" alt="Beterraba">
                     <div class="produto-desc">
                         <h2>Beterraba</h2>
-                        <h2>Empresa Z</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        <button>R$10,00</button>
                     </div>
                 </div>
+
 
                 <!-- =============================== cereais =============================== -->
 
@@ -137,27 +141,21 @@
                     <img src="https://static.paodeacucar.com/img/uploads/1/751/645751.png" alt="Aveia">
                     <div class="produto-desc">
                         <h2>Aveia</h2>
-                        <h2>Empresa X</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        <button>R$10,00</button>
                     </div>
                 </div>
                 <div class="produto cereais">
                     <img src="https://static.paodeacucar.com/img/uploads/1/751/645751.png" alt="Arroz">
                     <div class="produto-desc">
                         <h2>Arroz</h2>
-                        <h2>Empresa Y</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        <button>R$10,00</button>
                     </div>
                 </div>
                 <div class="produto cereais">
                     <img src="https://static.paodeacucar.com/img/uploads/1/751/645751.png" alt="Milho">
                     <div class="produto-desc">
                         <h2>Milho </h2>
-                        <h2>Empresa Y</h2>
-                        <p>R$10,00</p>
-                        <button>Comprar</button>
+                        <button>R$10,00</button>
                     </div>
                 </div>
 
@@ -167,6 +165,7 @@
     </main> 
 
 
+    <script src="main.js"></script>
 
 </body>
 </html>

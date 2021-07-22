@@ -8,7 +8,6 @@
 #page-landing {
     background: var(--color-background);
 }
- Header 
 
 #nav {
     display: flex;
@@ -16,7 +15,7 @@
     background-color: var(--color-background-nav);
     justify-content: center;
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
 
 .nav-content {
@@ -50,3 +49,92 @@
 
 
 /*  Categoria: Produtos  */
+
+
+form input {
+    width: 20rem;
+    padding: .7rem;
+    border: 2px solid var(--color-items);
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;  
+}
+
+.busca,
+.categorias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    background: var(--color-background-nav);
+}
+
+.btn {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    background-color: #1ed760;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.btn:focus {
+    background-color: blueviolet;
+}
+
+.active {
+    background-color: blueviolet;
+}
+
+#produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 2rem 0;
+}
+
+.produto {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    max-width: 250px;
+}
+
+.produto-desc {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.produto-desc h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.produto-desc p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: #1ed760;
+    font-weight: 700;
+}
+
+.produto-desc button {
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #1ed760;
+    color: #fff;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.produto-desc button:hover {
+    background-color: #fff;
+    color: #1ed760;
+}

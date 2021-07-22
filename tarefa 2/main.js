@@ -1,5 +1,5 @@
 const btns = document.querySelectorAll('.btn');
-const storeProducts = document.querySelectorAll('.store-product');
+const storeProducts = document.querySelectorAll('.produto');
 // const search = document.getElementById(search);
 
 for (i = 0; i < btns.length; i++) {
@@ -24,13 +24,12 @@ for (i = 0; i < btns.length; i++) {
     });
 };
 
-// SEARCH FILTER
-const search = document.getElementById("search");
-const productName = document.querySelectorAll(".product-details h2");
 
-// A BETTER WAY TO FILTER THROUGH THE PRODUCTS
+
+const search = document.getElementById("filtro");
+const productName = document.querySelectorAll(".produto-desc h2");
+
 search.addEventListener("keyup", filterProducts);
-
 
 function filterProducts(e) {
     const text = e.target.value.toLowerCase();
