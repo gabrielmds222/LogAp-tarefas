@@ -52,8 +52,4 @@ function filterProducts(e) {
 
 // Filtro da empresa
 
-const selectValue = document.getElementById("list");
 
-function getSelectValue () {
-    
-}
