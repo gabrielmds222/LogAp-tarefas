@@ -1,0 +1,52 @@
+
+.logo {
+    width: auto;
+    height: 80px;
+    cursor: pointer;
+}
+
+#page-landing {
+    background: var(--color-background);
+}
+ Header 
+
+#nav {
+    display: flex;
+    position: relative;
+    background-color: var(--color-background-nav);
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.nav-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-content ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-content ul li a{
+    padding: 0 20px;
+    transition: all 300ms ease;
+}
+
+.nav-content ul li a{
+    color: var(--color-items);
+}
+
+.nav-content ul li a:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+
+/*  Categoria: Produtos  */

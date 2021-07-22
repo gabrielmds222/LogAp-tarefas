@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Tarefa 2</title>
+</head>
+<body id="page-landing">
+
+    <!-- Header / Navbar
+    <header id="nav">
+        <div class="nav-content">
+            <img src="./assets/logo.png" alt="logo" class="logo">
+
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#produtos" class="nav-link">Produtos</a></li>
+                <li class="nav-item"><a href="#fornecedores" class="nav-link">Fornecedores</a></li>
+                <li class="nav-item"><a href="#best" class="nav-link">Mais Vendidos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Comprar</a></li>
+            </ul>
+        </div>
+    </header>     -->
+
+
+
+    <!-- ======================= -->
+    <!-- ======================= -->
+    <!--   Filtros de Pesquisa   -->
+    <!-- ======================= -->
+    <!-- ======================= -->
+
+        
+    <main>
+        <div class="busca">
+            <form action="" onsubmit="return false">
+                <input type="text" id="filtro" placeholder="Nome do Produto">
+            </form>
+        </div>
+
+        <div class="categorias">
+            <a href="#" class="btn active" data-filter="all">Todos</a>
+            <a href="#" class="btn" data-filter="frutas">Frutas</a>
+            <a href="#" class="btn" data-filter="legumes">Legumes</a>
+            <a href="#" class="btn" data-filter="cereais">Cereais</a>
+            <!-- <a href="#" class="btn active" data-filter="all">Empresas</a> -->
+        </div>
+
+
+
+
+    <!-- ======================= -->
+    <!-- ======================= -->
+    <!--    Cards de Produtos    -->
+    <!-- ======================= -->
+    <!-- ======================= -->
+
+
+        <div class="slide-container">
+            <section id="produtos" class="container">
+
+                <!-- =============================== Frutas =============================== -->
+
+                <div class="produto frutas">
+                    <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/034/476/products/banana-prata1-697a68c7da6322edf115804203705497-640-0.png" alt="Banana">
+                    <div class="produto-desc">
+                        <h2>Banana</h2>
+                        <h2>Empresa X</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produto frutas">
+                    <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/034/476/products/banana-prata1-697a68c7da6322edf115804203705497-640-0.png" alt="Abacaxi">
+                    <div class="produto-desc">
+                        <h2>Abacaxi</h2>
+                        <h2>Empresa X</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produto frutas">
+                    <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/034/476/products/banana-prata1-697a68c7da6322edf115804203705497-640-0.png" alt="Morango">
+                    <div class="produto-desc">
+                        <h2>Morango</h2>
+                        <h2>Empresa Y</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produto frutas">
+                    <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/034/476/products/banana-prata1-697a68c7da6322edf115804203705497-640-0.png" alt="Maca">
+                    <div class="produto-desc">
+                        <h2>Maçã</h2>
+                        <h2>Empresa Z</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+                <!-- =============================== Legumes =============================== -->
+
+                <div class="produto legumes">
+                    <img src="https://www.maisquitanda.com.br/image/cache/1-verduras-legumes/cenoura%20rama-800x800.png" alt="Cenoura">
+                    <div class="produto-desc">
+                        <h2>Cenoura</h2>
+                        <h2>Empresa Z</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produto legumes">
+                    <img src="https://www.maisquitanda.com.br/image/cache/1-verduras-legumes/cenoura%20rama-800x800.png" alt="Alface">
+                    <div class="produto-desc">
+                        <h2>Alface</h2>
+                        <h2>Empresa Y</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produto legumes">
+                    <img src="https://www.maisquitanda.com.br/image/cache/1-verduras-legumes/cenoura%20rama-800x800.png" alt="Beterraba">
+                    <div class="produto-desc">
+                        <h2>Beterraba</h2>
+                        <h2>Empresa Z</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+                <!-- =============================== cereais =============================== -->
+
+
+                <div class="produto cereais">
+                    <img src="https://static.paodeacucar.com/img/uploads/1/751/645751.png" alt="Aveia">
+                    <div class="produto-desc">
+                        <h2>Aveia</h2>
+                        <h2>Empresa X</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produto cereais">
+                    <img src="https://static.paodeacucar.com/img/uploads/1/751/645751.png" alt="Arroz">
+                    <div class="produto-desc">
+                        <h2>Arroz</h2>
+                        <h2>Empresa Y</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div class="produto cereais">
+                    <img src="https://static.paodeacucar.com/img/uploads/1/751/645751.png" alt="Milho">
+                    <div class="produto-desc">
+                        <h2>Milho </h2>
+                        <h2>Empresa Y</h2>
+                        <p>R$10,00</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main> 
+
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+:root {
+    --color-background: #fff;
+    --color-background-nav: #f2f2f2;
+    --color-items: #919496;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-background);
+}
+
+a {
+    text-decoration: none;
+}
