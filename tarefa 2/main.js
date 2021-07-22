@@ -1,3 +1,7 @@
+
+// Filtro de botões
+
+
 const btns = document.querySelectorAll('.btn');
 const storeProducts = document.querySelectorAll('.produto');
 // const search = document.getElementById(search);
@@ -25,6 +29,7 @@ for (i = 0; i < btns.length; i++) {
 };
 
 
+// Filtro de pesquisa
 
 const search = document.getElementById("filtro");
 const productName = document.querySelectorAll(".produto-desc h2");
@@ -42,4 +47,13 @@ function filterProducts(e) {
             product.parentElement.parentElement.style.display = "none"
         }
     })
+}
+
+
+// Filtro da empresa
+
+const selectValue = document.getElementById("list");
+
+function getSelectValue () {
+    
 }

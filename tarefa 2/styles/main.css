@@ -138,3 +138,9 @@ img {
     background-color: #fff;
     color: #1ed760;
 }
+
+.no-products {
+    color: red;
+    text-decoration: line-through;
+    font-weight: normal;
+}
